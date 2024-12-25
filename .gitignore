@@ -1,0 +1,31 @@
+######Language######
+## To include a folder or file you want to share through git
+## put ! in front and then type file path starting from root folder (but don't include root)
+## To include all files within a folder use /*
+## To include all files within a folder AND all subfolders use /**
+## By default we are ignoring everything but if you want to ignore something again (because of ! you typed including it) just type the filepath without the !
+ 
+# Ignores everything
+*
+# even if they are in subdirectories
+!*/
+ 
+# But not these files...
+!.gitignore
+ 
+!map_source/zm/zm_example.map
+!map_source/_prefabs/zm/zm_example/**
+ 
+!usermaps/zm_example/**
+ 
+#These folders contain generated files we don't need to push
+usermaps/zm_example/zone/**
+usermaps/zm_example/zone_source/all/**
+usermaps/zm_example/zone_source/english/**
+usermaps/zm_example/zone_source/loc/**
+usermaps/zm_example/sound/zone/**
+ 
+#some files/folders in our root outside of usermaps we may want to push
+!source_data/zm_example.gdt
+!share/raw/sound/aliases/zm_example_sounds.csv
+!sound_assets/zm_example/*
