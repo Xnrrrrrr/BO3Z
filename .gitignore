@@ -13,19 +13,19 @@
 # But not these files...
 !.gitignore
  
-!map_source/zm/zm_example.map
-!map_source/_prefabs/zm/zm_example/**
+!map_source/zm/zm_der_patientenflugel.map
+!map_source/_prefabs/zm/zm_der_patientenflugel/**
  
-!usermaps/zm_example/**
+!usermaps/zm_der_patientenflugel/**
  
 #These folders contain generated files we don't need to push
-usermaps/zm_example/zone/**
-usermaps/zm_example/zone_source/all/**
-usermaps/zm_example/zone_source/english/**
-usermaps/zm_example/zone_source/loc/**
-usermaps/zm_example/sound/zone/**
+usermaps/zm_der_patientenflugel/zone/**
+usermaps/zm_der_patientenflugel/zone_source/all/**
+usermaps/zm_der_patientenflugel/zone_source/english/**
+usermaps/zm_der_patientenflugel/zone_source/loc/**
+usermaps/zm_der_patientenflugel/sound/zone/**
  
 #some files/folders in our root outside of usermaps we may want to push
-!source_data/zm_example.gdt
-!share/raw/sound/aliases/zm_example_sounds.csv
-!sound_assets/zm_example/*
+!source_data/zm_der_patientenflugel.gdt
+!share/raw/sound/aliases/zm_der_patientenflugel_sounds.csv
+!sound_assets/zm_der_patientenflugel/*
